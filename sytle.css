@@ -1,0 +1,89 @@
+body {
+    font-family: monospace;    background-color: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('fondo1.jpg');
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 20px 20px 25px rgb(11, 11, 11);
+    width: 400px;
+    text-align: center;
+
+}
+
+.titulo {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #555;
+    align-self: flex-start;
+    font-size:18px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 94%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background: #0e1a2a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: monospace;
+
+}
+
+button:hover {
+    background: #77e4fa ;
+    color: #333;
+
+}
+
+p {
+    margin-top: 25px;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #05033e;;
+    color: #333;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
